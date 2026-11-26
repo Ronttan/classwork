@@ -6,6 +6,7 @@ int main()
     i=3886;
     for(year=1999;year<=2005;year++)
     {
+        j=0;
         j=i*(1+0.1);
         i=j;
     }

@@ -11,4 +11,5 @@ int main()
         if(i%5==0)
         printf("%-4d",n);
     }
+    printf("\n");
 }

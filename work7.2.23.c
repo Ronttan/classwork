@@ -15,7 +15,7 @@ int main()
             }
         }
         if(j==1)
-        printf("%-2d",i);
+        printf("%-3d",i);
     }
     printf("\n");
 }

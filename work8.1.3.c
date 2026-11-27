@@ -27,7 +27,7 @@ int main()
     min=a[0];
     for(i=1;i<n;i++)
     {
-        if(a[i]<=max)
+        if(a[i]<=min)
         {
             min=a[i];
         }

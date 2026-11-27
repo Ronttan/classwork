@@ -34,5 +34,5 @@ int main()
         sum2+=a[i][j];
     }
     sum=sum1+sum2-a[1][1];
-    printf("该3*3的整型矩阵对角线元素之和为%d",sum);
+    printf("该3*3的整型矩阵对角线元素之和为%d\n",sum);
 }

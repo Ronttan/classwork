@@ -10,13 +10,13 @@ int main()
             scanf("%d",&a[i][j]);
         }
     }
-    printf("行列互换后的矩阵为:");
+    printf("行列互换后的矩阵为:\n");
     for(i=0;i<3;i++)
     {
         for(j=0;j<3;j++)
         {
             b[j][i]=a[i][j];
-            printf("%-4d",b[j][i]);
+            printf("%-2d",b[j][i]);
         }
         printf("\n");
     }

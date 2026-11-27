@@ -10,7 +10,7 @@ int main()
     }
     int i;
     double a[100];
-    printf("请输入%d个整数:\n",n);
+    printf("请输入%d个浮点数:\n",n);
     for(i=0;i<n;i++)
     {
         scanf("%lf",&a[i]);
@@ -20,11 +20,11 @@ int main()
     MAX=a[0];
     for(i=1;i<n;i++)
     {
-        if(a[i]>=max)
+        if(a[i]>=MAX)
         {
-            max=a[i];
-            MAX=i;
+            MAX=a[i];
+            max=i;
         }
     }
-    printf("double类型数组中存储的最大数值的下标为%d\n",MAX);
+    printf("double类型数组中存储的最大数值的下标为%d\n",max);
 }

@@ -22,9 +22,8 @@ int main()
     {
         for(j=0;j<3;j++)
         {
-            printf("%-2d",b[j][i]);
+            printf("%-2d",b[i][j]);
         }
         printf("\n");
     }
-    printf("\n");
 }

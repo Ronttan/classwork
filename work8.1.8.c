@@ -16,8 +16,9 @@ int main()
         for(j=0;j<3;j++)
         {
             b[j][i]=a[i][j];
-            printf("%d",b[j][i]);
+            printf("%-4d",b[j][i]);
         }
+        printf("\n");
     }
     printf("\n");
 }

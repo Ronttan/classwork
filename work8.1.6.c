@@ -14,5 +14,5 @@ int main()
         sum+=a[i];
     }
     result=sum/20.0;
-    printf("这20个数的平均值为%.3f",result);
+    printf("这20个数的平均值为%.3f\n",result);
 }

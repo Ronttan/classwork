@@ -1,0 +1,39 @@
+#include<stdio.h>
+int main()
+{
+    int A[3][3],B[3][3],i,j;
+    printf("请为二维数组A[3][3]输入数值:\n");
+    for(i=0;i<3;i++)
+    {
+        for(j=0;j<3;j++)
+        {
+            scanf("%d",&A[i][j]);
+        }
+    }
+    printf("请为二维数组B[3][3]输入数值:\n");
+    for(i=0;i<3;i++)
+    {
+        for(j=0;j<3;j++)
+        {
+            scanf("%d",&B[i][j]);
+        }
+    }
+    printf("A+B所得二维数组为:\n");
+    for(i=0;i<3;i++)
+    {
+        for(j=0;j<3;j++)
+        {
+            printf("%-4d",&A[i][j]+B[i][j]);
+        }
+        printf("\n");
+    }
+    printf("A-B所得二维数组为:\n");
+    for(i=0;i<3;i++)
+    {
+        for(j=0;j<3;j++)
+        {
+            printf("%-4d",&A[i][j]-B[i][j]);
+        }
+        printf("\n");
+    }
+}

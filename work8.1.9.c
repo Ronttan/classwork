@@ -23,7 +23,7 @@ int main()
     {
         for(j=0;j<3;j++)
         {
-            printf("%-8d",A[i][j]+B[i][j]);
+            printf("%-2d",A[i][j]+B[i][j]);
         }
         printf("\n");
     }
@@ -32,7 +32,7 @@ int main()
     {
         for(j=0;j<3;j++)
         {
-            printf("%-8d",A[i][j]-B[i][j]);
+            printf("%-2d",A[i][j]-B[i][j]);
         }
         printf("\n");
     }

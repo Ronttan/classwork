@@ -8,6 +8,7 @@ int main()
     shuru (a);
     printf("输出为:\n");
     shuchu (a);
+    printf("\n");
 }
 void shuru(int* p)
 {

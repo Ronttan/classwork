@@ -15,7 +15,7 @@ void shuru(int* p)
     int x;
     for(x=0;x<5;x++)
     {
-        scanf("%d",p[x]);
+        scanf("%d",p+x);
     }
 }
 void shuchu(int* p)

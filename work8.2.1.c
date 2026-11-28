@@ -22,7 +22,7 @@ int main()
     printf("这15个整数从小到大排序后为:\n");
     for(i=0;i<15;i++)
     {
-        printf("%d",a[i]);
+        printf("%-3d",a[i]);
     }
     printf("\n");
 }
